@@ -5,7 +5,7 @@ def button_callback(channel):
     print("Button Pushe!")
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setwarning(False)
+GPIO.setwarnings(False)
 button_pin = 15
 
 GPIO.setup(button_pin, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
