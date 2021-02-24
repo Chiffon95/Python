@@ -4,7 +4,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-led_pin = 8
+led_pin = 4
 
 GPIO.setup(led_pin, GPIO.OUT)
 
