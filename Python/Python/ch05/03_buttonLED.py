@@ -19,7 +19,7 @@ led_pin = 4
 light_on = False
 
 GPIO.setup(button_pin, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
-GPIO.SETUP(led_pin, GPIO.OUT)
+GPIO.setup(led_pin, GPIO.OUT)
 
 GPIO.add_event_detect(button_pin, GPIO.RISING, callback = button_callback, bouncetime = 300)
 
