@@ -21,7 +21,30 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ch03\01.comments01.py" />
+    <Compile Include="ch03\02.number01.py" />
+    <Compile Include="ch03\03.str01.py" />
+    <Compile Include="ch03\04.list01.py" />
+    <Compile Include="ch03\05.list02.py" />
+    <Compile Include="ch03\06.list03.py" />
+    <Compile Include="ch03\07.list04.py" />
+    <Compile Include="ch03\08.list05.py" />
+    <Compile Include="ch03\09.list06.py" />
+    <Compile Include="ch03\10.tuple1.py" />
+    <Compile Include="ch03\11.tuple2.py" />
+    <Compile Include="ch03\12.tuple3.py" />
+    <Compile Include="ch03\13.dict.py" />
+    <Compile Include="ch03\14.for1.py" />
+    <Compile Include="ch03\15.for2.py" />
+    <Compile Include="ch03\16.while.py" />
+    <Compile Include="ch03\17.break.py" />
+    <Compile Include="ch03\18.function.py" />
+    <Compile Include="ch03\20.module02.py" />
+    <Compile Include="ch03\module01.py" />
     <Compile Include="Python.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ch03\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
