@@ -48,9 +48,13 @@
     <Compile Include="ch03\requests01.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ch05\01_led.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ch03\" />
+    <Folder Include="ch05\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
