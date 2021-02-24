@@ -51,6 +51,9 @@
     <Compile Include="ch05\01_led.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ch05\02_pushButton.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ch03\" />
