@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 def button_callback(channel):
-    print("Button Pushe!")
+    print("Button Pushed!")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
