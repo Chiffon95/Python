@@ -1,4 +1,4 @@
-import PRi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
@@ -28,4 +28,8 @@ try:
 			
 		check_time = stop-start
 		distance = check_time * 34300/2
-		print
+		print("Distance : %.1f cm" %distance)
+		time.sleep(0.4)
+except KeyboardInterrupt:
+	print("measurement stopped by User")
+	GPIO.cleanup()
